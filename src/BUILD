@@ -1,5 +1,5 @@
 py_binary(
   name = "main",
-  deps = [],
   srcs = ["main.py"],
+  deps = ["//src/workout"],
 )
